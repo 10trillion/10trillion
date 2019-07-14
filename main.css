@@ -1,0 +1,368 @@
+body {
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+}
+
+a {
+   color: #666666;
+   text-decoration:none;
+}
+
+a:hover {
+   text-decoration: line-through;
+}
+
+h3 {
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   text-decoration: none;
+   color: white;
+   background-color: transparent;
+   width:600px;
+}
+
+#blueBorder {
+	position:absolute;
+	left:16px;
+	top:12px;
+	z-index:0;
+}
+
+#squaredShape {
+	width:985px;
+	height:606px;
+}
+
+#bottomPhoto {
+	position:absolute;
+	left:344px;
+	top:619px;
+	width:623px;
+	height:39px;
+	z-index:1;
+}
+
+#ahmad {
+   background-color: transparent;
+   text-align: left;
+   color:#FFFFFF;
+   font-family:Arial;
+   font-size:32px;
+   position:absolute;
+   left:1024px;
+   top:243px;
+   width:273px;
+   height:37px;
+   z-index:4;
+   text-align:left;
+}
+
+#SSM {
+   background-color: transparent;
+   text-align: left;
+   background-color:#A9A9A9;
+   color:#000000;
+   font-family:Arial;
+   font-size:19px;   
+   position:absolute;
+   left:1047px;
+   top:274px;
+   width:250px;
+   height:22px;
+   z-index:5;
+   text-align:left;
+}
+
+#SSM div{
+   text-align: left;
+}
+
+#Portraiture {
+   background-color: transparent;
+   border: 0px #000000 solid;
+   text-align: left;
+   position:absolute;
+   left:1094px;
+   top:295px;
+   width:250px;
+   height:16px;
+   z-index:6;
+   color:#696969;
+   font-family:Arial;
+   font-size:13px;
+}
+
+#Portraiture div {
+   text-align: left;
+}
+
+#logo {
+	position:absolute;
+	left:35px;
+	top:30px;
+	width:179px;
+	height:89px;
+	z-index:8;
+}
+
+#instagram {
+	position:absolute;
+	left:1123px;
+	top:312px;
+	width:62px;
+	height:55px;
+	z-index:7;
+}
+
+#insta_icon {
+   width: 100%;
+   height: 100%;
+}
+
+
+/* horizontal DropDown menu */
+
+#navigation{
+	position:absolute;
+	left:232px;
+	top:80px;
+	width:530px;
+	height:39px;
+	z-index:900;
+}
+#navigation a:hover{
+	color: #00BFFF;
+	text-decoration:line-through;
+}
+
+#GALLERIES ,a,a:hover,li:hover {
+	color:white;
+	text-decoration:none;
+}
+
+
+.drop_menu {
+	background:black;
+}
+.drop_menu li { 
+float:left;
+list-style-type:none;
+}
+
+.drop_menu li a {
+	padding:9px 10px; /* height and spacing of nav words*/
+	display:block;
+	color:#666666; /* navigation head colors */
+	font:13px;
+	font-family: Arial;
+	text-decoration:none; /* no underlined line for nav links*/
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+
+}
+.drop_menu li:hover { 
+position:relative;
+background:black; 
+}
+
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:3px;
+	display:block;
+	width:90px;
+	text-indent:15px;
+	background-color:black; /* submenu background color */
+}
+.drop_menu li:hover ul li a:hover {
+   color: #00BFFF;
+   background-color: #000000;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+	}
+
+/* video property */
+
+#video {
+   position:absolute;
+   left:428px;
+   top:194px;
+   width:524px;
+   height:388px;
+   z-index:10;
+}
+
+#owner {
+   background-color: transparent;
+   text-align: left;
+   position:absolute;
+   left:35px;
+   top:619px;
+   width:458px;
+   height:14px;
+   z-index:11;
+   color:#C0C0C0;
+   font-family:Arial;
+   font-size:11px;
+}
+
+#videoTiltle1 {
+   background-color: transparent;
+   border: 0px #000000 solid;
+   text-align: left;
+   position:absolute;
+   left:35px;
+   top:408px;
+   width:458px;
+   height:72px;
+   z-index:12;
+   text-align:left;
+   color:#00BFFF;
+   font-family:Arial;
+   font-size:32px;
+}
+#videoTiltle1 div {
+   text-align: left;
+}
+
+#videoTitle2 {
+	color:#C0C0C0;
+	font-family:Arial;
+	font-size:32px;
+}
+/* for facts.html */
+
+#bigTitle {
+   font-size:40px;
+   text-align:left;
+   color: #00BFFF;   
+   position:absolute;
+   left:45px;
+   top:199px;
+   height:1px;
+   z-index:11;
+   text-align:left;
+}
+#bigTitle div {
+   text-align: left;
+}
+
+#smallList {
+	font-size:12px;
+	font-family:Tahoma;
+	color: white;
+}
+
+/* Contact me form  */
+
+.contact { 
+	height:310px;
+	width:650px;
+	margin:auto;
+	border:1px #ffffff dashed;
+	padding:7px;
+	text-align: center;
+	background-color: black;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: white;
+}
+
+.contact input { 
+	padding:5px;
+	margin:5px;
+	background-color: #1B2631;
+	border:2px solid #3498DB;
+	width:240px;
+	color: white;
+}
+
+.contact textarea {
+	padding:5px;
+	margin:5px;
+	background-color: #1B2631;
+	border:2px solid #3498DB;
+	width:440px;
+	color: white;
+	
+}
+
+.contact input[type="submit"],
+.contact input[type="reset"]  {
+  background-color : #21618C;
+  color : white;
+  border : 2px solid white;
+  float:left;
+  width:440px;
+}
+
+/* the following is used in about me page */
+p {
+   font-family:Tahoma;
+   font-weight: normal;
+   font-size: 12px;
+   font-style: normal;
+   text-decoration: none;
+   color: white;
+}
+
+#firstParagraph {
+	position: absolute;
+    bottom: -240px;
+    font-size: 18px;
+	width:600px;
+}
+
+#emoji {
+	position: absolute;
+    bottom: -290px;
+    right: -325px;
+    font-size: 18px;
+	width:600px;
+}
+
+#rightParagraph {
+    position: absolute;
+    bottom: -300px;
+    right: -390px;
+    font-size: 18px;
+	width:600px;
+}
+
+#lastParagraph {
+    position: absolute;
+    bottom: -370px;
+    font-size: 18px;
+	width:600px;
+}
+
+#whoAmI {
+   font-size:40px;
+   text-align:left;
+   color: #00BFFF;   
+   position:absolute;
+   left:45px;
+   top:140px;
+   height:1px;
+   z-index:11;
+   text-align:left;
+}
+#whoAmI div {
+   text-align: left;
+}

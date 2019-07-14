@@ -1,0 +1,66 @@
+body {
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+}
+
+#bigTitle {
+   font-size:40px;
+   text-align: left;
+   color: #00BFFF;   
+   position:absolute;
+   left:45px;
+   top:199px;
+   width:458px;
+   height:1px;
+   z-index:11;
+   text-align:left;
+}
+
+#bigTitle div {
+   text-align: left;
+}
+
+#shotText {
+   background-color: transparent;
+   border: 0px #000000 solid;
+   text-align: left;
+   position:absolute;
+   left:61px;
+   top:345px;
+   width:646px;
+   height:208px;
+   z-index:12;
+   text-align:left;
+}
+
+#boldedText {
+	background-color:#1E90FF;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:27px;
+}
+
+#ModelSessionText {
+	background-color:#696969;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:27px;
+}
+
+#list, ul {
+	list-style-type:disc;
+	color: #ffffff;
+}
+
+#PayPal {
+	position:absolute;
+	left:403px;
+	top:130px;
+	width:100px;
+	height:106px;
+	z-index:13;
+}
